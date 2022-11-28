@@ -11,9 +11,10 @@ $eng=0;
         
     }
 }
+$msj="Location: pagina.php?chk=".$_COOKIE["c_recordarme"];
 
-header("Location: pagina.php");
 
+header($msj);
 
 
 ?>
